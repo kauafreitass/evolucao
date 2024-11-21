@@ -1,0 +1,70 @@
+@import url('root.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-bar {
+    background-color: var(--bg-color);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    height: 10vh;
+}
+
+.navigation-bar a {
+    color: var(--white);
+    background-color: var(--light-blue);
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.navigation-bar a:hover {
+    transform: translateY(-5px);
+}
+
+.main-content {
+
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85vh;
+}
+
+.project {
+    background-color: var(--bg-color);
+    box-shadow: 0 0 35px var(--white-30op);
+    color: var(--white);
+    width: fit-content;
+    margin: 20px;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.title {
+    margin: 8px;
+}
+
+.text p{
+    max-width: 95%;
+    margin: auto;
+}
+
+.img-container img {
+    border-radius: 10px;
+    margin: 20px;
+}
