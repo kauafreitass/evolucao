@@ -7,22 +7,22 @@
     <title>EVOLUÇÃO</title>
 </head>
 <body class="evolucao">
-    <!-- Cabeçalho -->
-    <header>
+<header>
         <nav class="navbar">
             <div class="logo-container">
-                ✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰
+                <span>✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰</span>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">&#9776;</label>
                 <ul class="menu">
                     <div class="linha"></div>
                     <li><a href="primeiroprojeto.php">♔PRIMEIRO PROJETO</a></li>
                     <li><a href="projetoatual.php">❃PROJETO ATUAL</a></li>
                     <li><a href="dificuldades.php">♔DIFICULDADES</a></li>
                     <a href="evolucao.php"><h1>EVOLUÇÃO</h1></a>
-                    <li><a href="evolucaoopessoal.php">♔PROGRESSO</a></li>
+                    <li><a href="evolucaopessoal.php">♔PROGRESSO</a></li>
                     <li><a href="contato.php">♔CONTATO</a></li>
                 </ul>
-            
-                ✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰⊱∽∽∽
+                <span>✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰⊱∽∽∽</span>
             </div>
         </nav>
     </header>
@@ -39,7 +39,7 @@
                         <br>com aprofundamentos tecnológicos e ensinamentos práticos.
                     </p>
                 </div>
-                <img src="img/fundo.jpg" alt="Projeto 1">
+                <img class="img" src="img/fundo.jpg" alt="Projeto 1">
             </div>
             <div class="carousel-item">
                 <div class="carousel-text">
@@ -49,7 +49,7 @@
                         <br>com aprofundamentos tecnológicos e ensinamentos práticos.
                     </p>
                 </div>
-                <img src="img/imagem (1).jpg" alt="Projeto 2">
+                <img class="img" src="img/imagem (1).jpg" alt="Projeto 2">
             </div>
             <div class="carousel-item">
                 <div class="carousel-text">
@@ -59,7 +59,7 @@
                         <br>com aprofundamentos tecnológicos e ensinamentos práticos.
                     </p>
                 </div>
-                <img src="img/imagem (2).jpg" alt="Projeto 3">
+                <img class="img"src="img/imagem (2).jpg" alt="Projeto 3">
             </div>
         </div>
         <button class="carousel-prev">&#10094;</button>
@@ -69,6 +69,10 @@
 
         </div>
     </section>
+    ✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰
+✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰                ✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰
+✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰
+
 <main class="journey-container">
     <div class="journey-card">
         <div class="journey-header">
@@ -94,10 +98,15 @@
         <p class="journey-description">Com uma abordagem prática, o SENAI prepara os alunos para desenvolver websites completos e dinâmicos, com uma sólida base de conhecimento para o mercado digital..</p>
     </div>
 </main>
+✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰
+✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰                ✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰
+✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰
+
+
 <section class="infor3">
-    <h1 class="image-title">CONHEÇA MEU ÚLTIMO PROJETO</h1>
+    <h1 class="image-title">CONHEÇA UM DOS ÚLTIMOS PROJETOS</h1>
     <div class="image-wrapper">
-        <img class="marilyn" src="../marilyn-monroe/img/marilyn-monroe-pictures-2kfv0a2lj0ara0sm.jpg" alt="Marilyn Monroe">
+     <img class="marilyn" src="../marilyn-monroe/img/marilyn-monroe-pictures-2kfv0a2lj0ara0sm.jpg" alt="Marilyn Monroe">
     </div>
     <div class="botao">
         <a href="../marilyn-monroe/index.html">
@@ -119,7 +128,7 @@
                     <li><a href="primeiroprojeto.php">♔PRIMEIRO PROJETO</a></li>
                     <li><a href="projetoatual.php">❃PROJETO ATUAL</a></li>
                     <li><a href="dificuldades.php">♔DIFICULDADES</a></li>
-                    <li><a href="evolucaoopessoal.php">♔PROGRESSO</a></li>
+                    <li><a href="evolucaopessoal.php">♔PROGRESSO</a></li>
                     <li><a href="evolucao.php">❃EVOLUÇÃO</a></li>
                     <li><a href="contato.php">♔CONTATO</a></li>
                 </ul>
@@ -134,10 +143,10 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Beauty Luxury. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Anna Clara Gonçalves. Todos os direitos reservados.</p>
         </div>
     </footer>
-    <script>// Automatizar o carrossel para avançar a cada 5 segundos
+    <script>
 const carousel = document.querySelector('.carousel');
 let currentIndex = 0;
 const items = document.querySelectorAll('.carousel-item');

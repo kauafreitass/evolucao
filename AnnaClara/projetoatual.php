@@ -7,38 +7,39 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body class="evolucao">
-    <header>
+<header>
         <nav class="navbar">
             <div class="logo-container">
-                ✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰
+                <span>✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰</span>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">&#9776;</label>
                 <ul class="menu">
                     <div class="linha"></div>
                     <li><a href="primeiroprojeto.php">♔PRIMEIRO PROJETO</a></li>
                     <li><a href="projetoatual.php">❃PROJETO ATUAL</a></li>
                     <li><a href="dificuldades.php">♔DIFICULDADES</a></li>
                     <a href="evolucao.php"><h1>EVOLUÇÃO</h1></a>
-                    <li><a href="evolucaoopessoal.php">♔PROGRESSO</a></li>
+                    <li><a href="evolucaopessoal.php">♔PROGRESSO</a></li>
                     <li><a href="contato.php">♔CONTATO</a></li>
                 </ul>
-                ✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰⊱∽∽∽
+                <span>✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰⊱∽∽∽</span>
             </div>
         </nav>
     </header>
-    <br><br><br><br>
+    <br><br><br><br> <br><br><br>   <h1>PROJETO CATÁLOGO</h1>
     <section class="project-section">
-    <h4 class="section-title">PROJETO CATÁLOGO</h4>
 
   
     <div class="image-container">
     <img class="styled-image" src="img/catalogo.PNG" alt="Moda" width="1300px">
 </div>
  <p class="project-description">
- <b>Este projeto celebra a essência da beleza, destacando tendências icônicas e produtos marcantes.  
+ <b><blockquote>Este projeto celebra a essência da beleza, destacando tendências icônicas e produtos marcantes.  
 <br>Com foco na elegância e diversidade, ele explora tecnologia com o banco de dados.  
 <br>Onde o próprio usuário cadastra seu produto, valorizando a estética e o cuidado pessoal de forma única.</b>
 
 
-    </section>
+    </section></blockquote>
     <section class="project-section">
    
 
@@ -52,7 +53,6 @@
             <p class="project-description">
                 Um design que se adapta a qualquer dispositivo, e que promove uma visão do ctálogo de produtos cadastrados.
             </p>
-            <a href="#" class="project-button">Saiba Mais</a>
         </div>
     </div>
 
@@ -65,7 +65,6 @@
             <p class="project-description">
                 Um toque de inovação para apresentar produtos e serviços de beleza de forma interativa e dinâmica, utilizando as mais recentes tecnologias.
             </p>
-            <a href="#" class="project-button">Ver Integração</a>
         </div>
     </div>
 
@@ -78,7 +77,6 @@
             <p class="project-description">
                 Um design elegante e minimalista, perfeito para destacar as mais modernas tendências de beleza, com categorias de produtos.
             </p>
-            <a href="#" class="project-button">Descubra o Minimalismo</a>
         </div>
     </div>
 
@@ -91,7 +89,6 @@
             <p class="project-description">
                Com resenhas de usuários que compram os produtos, e sua opnião é armazenada no banco de dados.
             </p>
-            <a href="#" class="project-button">Saiba Mais</a>
         </div>
     </div>
 
@@ -104,7 +101,6 @@
             <p class="project-description">
                Com essa função o usuário pode deletar o produto que cadastrou.
             </p>
-            <a href="#" class="project-button">Explore o Conceito</a>
         </div>
     </div>
 
@@ -117,13 +113,14 @@
             <p class="project-description">
                 Onde o usuário pode cadastrar e ter integração com o site, adicionando resenhas.
             </p>
-            <a href="#" class="project-button">Explore o Luxo</a>
         </div>
     </div>
 </div>
-
+<marquee>
+                <img src="img/batom.webp" alt="" width="100px"> <img src="img/corporal.webp" alt="" width="100px"><img src="img/perfume.png" alt="" width="100px"> <img src="img/unhas.webp" alt="" width="100px"><img src="img/perfume2.webp" alt="" width="100px"><img src="img/cabelo.png" alt="" width="100px"><img src="img/skincare.webp" alt="" width="100px"></marquee>
+            </div>
     </section>
-
+    </table>
 
     <footer class="site-footer">
         <div class="footer-container">
@@ -137,7 +134,7 @@
                     <li><a href="primeiroprojeto.php">♔PRIMEIRO PROJETO</a></li>
                     <li><a href="projetoatual.php">❃PROJETO ATUAL</a></li>
                     <li><a href="dificuldades.php">♔DIFICULDADES</a></li>
-                    <li><a href="evolucaoopessoal.php">♔PROGRESSO</a></li>
+                    <li><a href="evolucaopessoal.php">♔PROGRESSO</a></li>
                     <li><a href="evolucao.php">❃EVOLUÇÃO</a></li>
                     <li><a href="contato.php">♔CONTATO</a></li>
                 </ul>
@@ -153,7 +150,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Beauty Luxury. Todos os direitos reservados.</p>
+            <p>&copy;2024 Anna Clara Gonçalves. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
