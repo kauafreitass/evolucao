@@ -19,7 +19,7 @@
 
 
             <ul class="nav-list">
-                <li><a href="">HOME</a></li>
+                <li><a href="">INICIO</a></li>
                 <li><a href="">PROJETO ANTIGO</a></li>
                 <li><a href="">COMPARAÇÕES</a></li>
 
@@ -31,21 +31,20 @@
 
 
             <div class="textcontent">
-                <h1>TITULO AQUI</h1>
+                <h1>SOBRE OS PROJETOS</h1>
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, culpa, magni veniam consequuntur quam
-                    nostrum illo eum nemo quidem facere tempore excepturi fuga! Adipisci architecto, hic quidem ducimus
-                    facere, necessitatibus eius eum dolore labore nostrum aliquid exercitationem placeat culpa dolor
-                    laborum dolores mollitia quod unde consequuntur praesentium asperiores iusto natus nihil iure. Dicta
-                    velit fugiat, quos illo suscipit nobis consequatur explicabo aut? Ab aspernatur accusantium ipsa
-                    minima, impedit ut eius similique assumenda odit consequatur harum deserunt autem quam quae omnis et
-                    minus, enim officiis optio molestias excepturi iusto vel? Labore voluptate magni omnis rerum maiores
-                    rem nulla repellendus dolores, ipsa veritatis reprehenderit incidunt odit obcaecati recusandae in.
-                    Non officia repellat, m modi neque saepe reiciendis, soluta fugiat
-                    aliquid adipisci recusandae voluptatum natus iure accusamus voluptates pariatur consectetur rem!
-                    Accusamus voluptatibus quam quos adipisci. Aperiam ducimus molestiae minus iure vero consectetur
-                    nisi quia non nobis illum!</p><br>
-                <button class="basestyle">SAIBA MAIS SOBRE O PROJETO ATUAL</button>
+                <p>Com o objetivo de desenvolver um projeto final, recebemos a tarefa de criar um novo site que mostre
+                    nossa evolução ao longo do ano, utilizando nossos aprendizados para ilustrar esse percurso.</p><br>
+                <p>Com o objetivo de desenvolver um projeto final, recebemos a tarefa de criar um novo site que mostre
+                    nossa evolução ao longo do ano, utilizando nossos aprendizados para ilustrar esse percurso.</p><br>
+                <p>Como mencionado, ao longo do ano, o SENAI nos ensinou diversas disciplinas dentro de uma grade
+                    curricular planejada para os alunos. Durante esse período, foram realizados projetos que visaram
+                    desenvolver nossas habilidades, tanto no âmbito educacional quanto no socioemocional.
+
+                    Para evidenciar e comparar nossa evolução, foram criadas três páginas: uma apresentando o projeto
+                    anterior, outra mostrando o projeto atual e, por fim, uma dedicada à análise comparativa do nosso
+                    progresso.</p><br>
+                <button class="basestyle">VEJA A COMPARAÇÃO</button>
 
             </div><br><br>
             <div class="imgcontent">
@@ -57,40 +56,24 @@
         <div class="containerjustext">
             <div class="contjustext"><br>
                 <h1>
-                    TITULO TOPICO
+                    PROJETOS DESENVOLVIDOS
                 </h1><br><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat cumque animi possimus
-                    obcaecati
-                    neque tempore. Dolor nam libero excepturi blanditiis ad doloribus, qui vero quisquam obcaecati,
-                    velit,
-                    corporis molestiae soluta consequatur et cumque aut dolore. Obcaecati sint laudantium tenetur dolor,
-                    aperiam dolorem pre iste earum, accusamus officia obcaecati blanditiis illum
-                    repellendus atque quos exercitationem delectus molestias provident dolorem recusandae. Eius
-                    accusamus
-                    blanditiis ducimus libero voluptatum aliquam, rerum repellendus suscipit similique possimus tempore
-                    expedita? Asperiores ex tenetur at incidunt, error odit exercitationem porro? Exercitationem, sed
-                    eius.
-                    Placeat consequatur, asperiores facilis inventore a atque aperiam! Doloribus delectus quos
-                    repudiandae
-                    sequi. Sequi vero atque, laudantium veniam a dolor excepturi nobis minus temporibus explicabo sit
-                    eos
-                    saepe, accusantium sunt quia consequatur hic quidem voluptatum repudiandae reprehenderit consectetur
-                    laboriosam at! Numquam hic distinctio facilis asperiores eos quos mollitia illum, quaerat reiciendis
-                    consequatur, necessitatibus facere eius qui quo ipsum eveniet cumque illo at? Culpa ipsa minus aut
-                    quos
-                    dolore quibusdam! Quo eligendi et qui libero, illo corporis doloribus vitae reprehenderit sint
-                    maxime
-                    enim quisquam illum explicabo? Quidem ipsum ea illum labore explicabo officia praesentium,
-                    dignissimos
-                    mollitia, quos placeat quis voluptatibus harum et quasi animi tempore provident sed sint rem,
-                    doloribus
-                    voluptates. Ex at ducimus et magnam?</p><br>
+                <p>O primeiro projeto final do ano consistiu na criação de um site baseado em uma profissão de interesse
+                    pessoal, desenvolvido com um script fornecido e um layout planejado por nós.
+
+                    Agora, no final do ano, com conhecimentos mais aprofundados, foi criado um novo site independente,
+                    que reflete nossa evolução. Esse projeto teve como tema um layout inspirado em uma personalidade e,
+                    assim como o primeiro, foi desenvolvido seguindo o script fornecido.</p><br>
+                <p>Há uma página descrita para cada ambos os projetos comentados, descrevendo detalhadamente o processo
+                    de cada
+                    um, que tal conferi-lás?
+                </p><br>
             </div>
         </div>
 
 
         <div class="topicontainer">
-   
+
 
             <div class="topic">
                 <div class="imgtopicontai">
@@ -104,7 +87,7 @@
                 </div><br>
             </div>
 
-       
+
             <div class="topic">
                 <div class="imgtopicontai">
                     <img src="img/projetoatual.png" alt="" class="imgtopic">
@@ -114,11 +97,11 @@
                     <h2>PROJETO ATUAL</h2>
                     <p>DESCRIÇÃO DO PROJETO ATUAL</p><br>
                     <a href=""><button> PROJETO ATUAL</button></a>
-                    
+
                 </div><br>
             </div>
 
-          
+
             <div class="topic">
                 <div class="imgtopicontai">
                     <img src="img/projetoantigo.png" alt="" class="imgtopic">
@@ -131,7 +114,66 @@
                 </div><br>
             </div>
 
+        </div>
+        <br>
+        <div class="containerjustextwhite">
+            <div class="contjustexwhite"><br>
+                <h1>
+                    CONCLUSÃO
+                </h1><br>
+                <p>Ao fazermos uma breve análise, podemos concluir que, ao longo de todos os projetos desenvolvidos,
+                    tanto individuais quanto em grupo, tivemos um progresso significativo. Esses trabalhos nos ajudaram
+                    a aprimorar não apenas nossas habilidades na área tecnológica, mas também a fortalecer competências
+                    no âmbito socioemocional, como trabalho em equipe, comunicação e resolução de problemas. A
+                    experiência de projetar e colaborar com colegas contribuiu para nosso crescimento pessoal e
+                    profissional, preparando-nos melhor para enfrentar desafios futuros.</p><br>
+            </div>
+        </div>
+
     </main>
+
+    <div class="footainer">
+        <footer class="footer">
+
+            <ul class="sociallinks">
+                <li class="icon-elemt">
+                    <a href="" class="icon"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+
+                <li class="icon-elemt">
+                    <a href="" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+
+                <li class="icon-elemt">
+                    <a href="" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+
+                <li class="icon-elemt">
+                    <a href="" class="icon"><i class="fa-brands fa-github"></i></a>
+                </li>
+            </ul>
+
+
+            <ul class="menu">
+                <li class="menuelemen">
+                    <a href="" class="menu-icon">INICIO</a>
+                </li>
+
+                <li class="menuelemen">
+                    <a href="" class="menu-icon">PROJETO ANTIGO</a>
+                </li>
+
+                <li class="menuelemen">
+                    <a href="" class="menu-icon">PROJETO ATUAL</a>
+                </li>
+
+                <li class="menuelemen">
+                    <a href="" class="menu-icon">COMPARAÇÕES</a>
+                </li>
+            </ul>
+
+        </footer>
+    </div>
 
     <script src="app.js"></script>
 </body>
