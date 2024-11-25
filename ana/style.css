@@ -1,14 +1,330 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kalnia+Glaze:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-*{
-    padding: 0;
+* {
     margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+    padding: 0;
+
 }
 
-body{
+body {
+    background-color: rgb(244, 244, 244);
+    font-family: 'Poppins';
+}
+
+a {
+
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #ffff;
+}
+
+header {
+    background-color: rgb(92, 118, 178);
+    padding-inline: 16px;
+}
+
+nav {
+    height: auto;
+    padding: 10px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+
+.nav-list a {
+    font-size: 25px;
+    font-weight: 500;
+    padding-block: 16px;
+}
+
+.hamburger {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #ffff;
+    cursor: pointer;
+}
+
+.hamburger ::before,
+.hamburger::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #ffff;
+    margin-top: 5px;
+}
+
+/*CONTEUDO*/
+
+
+.contentbase {
+    max-width: 99, 9%;
+    min-height: 500px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+.imgcontent {
+
+    text-align: center;
+    align-items: end;
+    width: 30%;
+
+}
+
+.textcontent {
+    flex-wrap: wrap;
+    width: 50%;
+    text-align: start;
+
+}
+
+.imgbase {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.textcontent h1 {
+    font-size: 40px;
+    color: rgb(24, 0, 13);
+}
+
+.textcontent p {
+    font-size: 20px;
+    color: rgb(24, 0, 13);
+}
+
+.basestyle{
+    padding: 20px;
+    border: none;
+    background-color: rgb(92, 118, 178);
+    color: #ffff;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+
+.containerjustext{
+    width: 99,9%;
+    background-color: rgb(92, 118, 178);
+    justify-content: center;
+    text-align: center;
     
+}
+.contjustext{
+    width: 70%;
+    margin: 0 auto;
+    text-align: start;
+    padding: 25px;
+    color: #ffff;
+}
+.contjustext h1{
+    font-size: 37px;
+    font-family: 'Poppins';
+
+}
+.contjustext P{
+    font-size: 22px;
+    font-family: 'Poppins';
+}
+
+.topicontainer{
+    background-color: rgb(52, 76, 132);
+    width: 99,9%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topic{
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: auto;
+}
+
+.imgtopic{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+   
+}
+
+.imgtopicontai{
+    width: 80%;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.textcont{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textcont h2{
+    font-size: 25px;
+    color: rgb(68, 92, 149);;
+}
+
+
+.textcont button {
+
+    border-style: solid;
+    border-color: #040762;
+    border-radius: 30px;
+    padding: 10px;
+    color: #040762;
+    background-color: rgba(0, 0, 128, 0);
+}
+
+
+.textcont button:hover {
+
+    border-style: solid;
+    border-color: #040762;
+    border-radius: 30px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #040762;
+}
+
+
+.textcont button p a {
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color:#040762;
+}
+/*RESPONSIVO*/
+@media (max-width: 750px) {
+
+    .hamburger {
+        display: block;
+        z-index: 1;
+    }
+
+    .nav-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color:rgb(92, 118, 178);
+        clip-path: circle(100px at 90% -15%);
+        /*escondendo o path*/
+        transition: 1s ease-out;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+        /*para nao ser capaz de clicar*/
+    }
+
+    .nav-list a {
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    .nav-list li:nth-child(1) a {
+        transition: 0.5s 0.2s;
+    }
+
+    /*todos os elementos do pai, no caso a nav list, permite te pegar um dos filhos, os itens, em base da sua posição*/
+
+    .nav-list li:nth-child(2) a {
+        transition: 0.5s 0.4s;
+    }
+
+    .nav-list li:nth-child(3) a {
+        transition: 0.5s 0.6s;
+    }
+
+
+
+    /*ativar estilos*/
+
+    nav.active .nav-list {
+        /*ativar quando estiver com a classe nav.active se ativar no js*/
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+        /*para ser capaz de clicar*/
+    }
+
+    nav.active .nav-list a {
+        opacity: 1;
+    }
+
+
+    /*CONTEUDO*/
+
+
+    .contentbase {
+        max-width: 99, 9%;
+        min-height: 500px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+
+    .imgcontent {
+        text-align: center;
+        align-items: end;
+        width: 80%;
+
+    }
+
+    .textcontent {
+        flex-wrap: wrap;
+        width: 80%;
+        text-align: start;
+
+    }
+
+    .imgbase {
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .textcontent p {
+        font-size: 20px;
+
+    }
 }
