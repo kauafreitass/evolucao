@@ -4,13 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Evolução</title>
 </head>
 
 <body>
-    <div><img src="img/Captura de tela 2024-11-25 105149.png" alt="gg"></div>
-    <h1>meu primeiro site</h1>
-    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias sapiente temporibus, est veniam, expedita amet repudiandae odio tempora magnam eligendi saepe maiores cumque soluta possimus omnis voluptatem esse iste assumenda?</strong>
+    <div class="container">
+        <img class="img" src="img/print-inicio.png" alt="Primeiro site">
+        <div class="descricao">
+            <h1>Meu Primeiro Site</h1>
+            <p><strong>Aqui eu não tinha muito conhecimento sobre códigos, esse foi um dos mais simples que criei, apenas com HTML e CSS.</strong></p>
+        </div>
+
+        <img class="img" src="img/print-fim.png" alt="Último feito">
+        <div class="descricao">
+            <h1>Último Feito</h1>
+            <p><strong>Esse foi o último que fiz. Está completo com HTML, CSS e PHP. Uma melhora muito grande comparado com o primeiro.</strong></p>
+        </div>
+    </div>
 </body>
 
 </html>
