@@ -42,7 +42,6 @@
    
 
     <div class="project-container">
-        <!-- Primeira Div -->
         <div class="project-item">
             <div class="image-container">
                 <img class="project-image" src="img/Capturar.PNG" alt="Design Responsivo">
@@ -56,7 +55,6 @@
             </div>
         </div>
 
-        <!-- Segunda Div -->
         <div class="project-item">
             <div class="image-container">
                 <img class="project-image" src="img/captura moda1.PNG" alt="Integração de Tecnologias">
@@ -70,10 +68,9 @@
             </div>
         </div>
 
-        <!-- Terceira Div -->
         <div class="project-item">
             <div class="image-container">
-                <img class="project-image" src="img/captura moda.PNG" alt="Estética Minimalista">
+                <img class="project-image" src="img/Capturar1.PNG" alt="Estética Minimalista">
             </div>
             <div class="content-container">
                 <h3 class="project-title">Estética Minimalista</h3>
@@ -84,19 +81,49 @@
             </div>
         </div>
         <div class="project-item">
-            <div class="image-container">
-                <img class="project-image" src="img/Capturar2.PNG" alt="Estética Minimalista">
-            </div>
-            <div class="content-container">
-                <h3 class="project-title">Estética Minimalista</h3>
-                <p class="project-description">
-                    Um foco em linhas limpas e minimalismo, para destacar o conteúdo visual e textual de forma elegante.
-                </p>
-                <a href="#" class="project-button">Descubra o Minimalismo</a>
-            </div>
-        </div>
+    <div class="image-container">
+        <img class="project-image" src="img/Capturar2.PNG" alt="Soluções Sustentáveis">
     </div>
-</section>
+    <div class="content-container">
+    <h3 class="project-title">Exploração Artística</h3>
+        <p class="project-description">
+            Parte do projeto que explora a arte como meio de expressão, unindo criatividade e impacto visual para inspirar novas perspectivas.
+        </p>
+        <a href="#" class="project-button">Saiba Mais</a>
+    </div>
+</div>
+<div class="project-item">
+    <div class="image-container">
+        <img class="project-image" src="img/capturar3.PNG" alt="Inovação Tecnológica">
+    </div>
+    <div class="content-container">
+    <h3 class="project-title">Criatividade Contemporânea</h3>
+        <p class="project-description">
+            Um conceito visual inspirado nas tendências modernas, com foco na harmonia entre forma e funcionalidade.
+        </p>
+        <a href="#" class="project-button">Explore o Conceito</a>
+    </div>
+</div>
+<div class="project-item">
+    <div class="image-container">
+        <img class="project-image" src="img/captura moda.PNG" alt="Criatividade Contemporânea">
+    </div>
+    <div class="content-container">
+    <h3 class="project-title">Conexão Criativa</h3>
+        <p class="project-description">
+            Parte do projeto que promove uma ligação entre estética e funcionalidade, trazendo inovação alinhada às necessidades do usuário.
+        </p>
+        <a href="#" class="project-button">Explore o Conceito</a>
+    </div>
+</div>
+    </div>
+    </section>
+    <h3>ASSISTA UM RESUMO</h3>  
+                     <br>
+                  <div class="iframe">   
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/wtki6NvFuZc?si=D2yYifhZ_jjCLmxH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+<br><br><br><br>
 
     <footer class="site-footer">
         <div class="footer-container">
