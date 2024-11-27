@@ -1,0 +1,73 @@
+
+/* Estilos para o corpo (body) */
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove os preenchimentos padrão */
+    background-color: #f2f2f2; /* Define a cor de fundo */
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos para o título do cabeçalho */
+header h1 {
+    margin: 0; /* Remove as margens */
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove os preenchimentos padrão */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens de lista em linha */
+    margin-right: 20px; /* Espaçamento à direita entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove a decoração de texto */
+}
+
+/* Estilos para o corpo principal (main) */
+main {
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 40px; /* Espaçamento inferior entre as seções */
+}
+
+/* Estilos para os títulos das seções */
+section h2 {
+    color: #333; /* Cor do texto */
+}
+
+/* Estilos para os artigos */
+article {
+    background-color: #fff; /* Cor de fundo dos artigos */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior entre os artigos */
+}
+
+/* Estilos para os links "Saiba Mais" */
+article a {
+    color: #333; /* Cor do texto dos links */
+    text-decoration: none; /* Remove a decoração de texto */
+    font-weight: bold; /* Define a fonte em negrito */
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+}

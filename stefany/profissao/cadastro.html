@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pediátria</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="stylescadastro.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1> ℙ𝔼𝔻𝕀𝔸𝕋ℝ𝔸 𝕊𝔸𝕀𝔹𝔸 𝕄𝔸𝕀𝕊</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>     
+                <li><a href="cadastro.html">cadastro saiba mais</a></li> 
+                <li><a href="perfil.html">sociais</a></li> 
+                 <li><a href="contato.html">Contato</a></li> 
+           </ul>
+        </nav>
+    </header>
+
+    <main>
+    
+<body>
+    <form action="cadastro.php" method="post">
+        <h2>Cadastro de Paciente Pediátrico</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
+
