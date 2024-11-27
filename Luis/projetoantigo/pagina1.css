@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+
+body{
+    background: linear-gradient(#2c3156,#1b1a33);
+    min-height: 100vh;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 25px;
+}
+
+.logo{
+    width: 170px;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:rgba(83, 85, 88, 0.895);
+}
+
+section{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.section_text{
+    color: rgb(253, 247, 247);
+width: 90%;
+text-align: center;
+margin: auto;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  
+}
+
+.section_text h1{
+    font-size: 5rem;
+    margin-top: 10px;
+    text-shadow: 3px 0 rgb(10, 206, 241),
+                 -3px 0 rgb(10, 206, 241),
+                 0 3px rgb(10, 206, 241),
+                 0 -3px rgb(10, 206, 241),
+                 2px 2px rgb(10, 206, 241),
+                 -2px -2px rgb(10, 206, 241),
+                 2px -2px rgb(10, 206, 241),
+                 -2px 2px rgb(10, 206, 241),;
+}
+.section_text p{
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: 400;
+    text-align: left;
+}
+
+.section_text div{
+    text-align: left;
+    display: flex;
+}
+
+.section_text div button{
+    font-size: 22px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin-right: 30px;
+    font-weight: 300;
+}
+.section_text div button i{
+    font-size: 38px;
+    margin-right: 10px;
+}
+
+.section_text div button:first-child{
+    display:inline-flex;
+    align-items:center;
+}
+
+.section_text div button:last-child{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+}
+.section_img{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.section_img img{
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(31, 34, 32);
+    color: #ffff;
+}
+.nav-link a {
+    color: #ffff;
+}
+/* Logo a esquerdo do menu*/
+.logo{
+    font-size: 32px;
+}
+.logo a{
+    color: #ffff;
+}
+/*menu do navbar estilização a direita do navegador*/
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover{
+    background-color: rgb(101, 193, 222);
+    border-radius: 7px;
+    transition: 0.3s ease;
+    
+}
+.menu li {
+    padding: 5px 14px;
+}
+/*Hack para checkbox (gambiarra)*/
+input[type=checkbox]{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+a { 
+    text-decoration: none;
+}
+li {
+     list-style: none;
+}
+
+
+.banner{
+    display: flex;
+    gap: 400px;
+}
+
+
+
+
+/*menu responsivo navbar*/
+/*aplicação irá aparecer quando chegara um determinado tamanho*/
+@media (max-width: 768px){
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: rgb(179, 179, 180);
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .menu li:hover{
+        display: inline-block;
+        background-color: rgb(130, 132, 135);
+        transition: 0.3s ease;
+    }
+    .menu li + li {
+        margin-top: 12px;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+#jota{
+    margin: auto;
+    margin-right: 0;
+    width: 60%;
+    height: 30%;
+    border-radius: 20px;
+    border:5px solid rgb(51, 157, 157);
+}
+.text{
+    color: rgb(84, 80, 80);
+    width: 90%;
+    text-align: center;
+    margin: auto;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;  
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+section:has(.artigo){
+    width: 100%;
+    min-height: 100%;
+}
+.artigo{
+    border-radius: 20px;
+    overflow: hidden;
+    border:5px solid rgb(51, 157, 157);
+}
+
+footer a img{
+    width: 30px;
+}
+iframe{
+    border: 10px solid rgb(51, 157, 157);
+    border-radius: 10px;
+}
