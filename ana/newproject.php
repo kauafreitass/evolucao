@@ -19,8 +19,8 @@
 
 
             <ul class="nav-list">
-                <li><a href="">INICIO</a></li>
-                <li><a href="">PROJETO ANTIGO</a></li>
+                <li><a href="evolucao.php">INICIO</a></li>
+                <li><a href="projectold.php">PROJETO ANTIGO</a></li>
                 <li><a href="">COMPARAÇÕES</a></li>
 
             </ul>

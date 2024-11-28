@@ -1,0 +1,322 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #C6C6C6;
+    margin:0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    width: fit-content;
+    margin:0 auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+header div{
+    display: flex;
+}
+header div img{
+    width: 100px;
+    height: 100px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+header h1{
+    background-color: #d9d9d9;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.hobbie, .meta{
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    padding:10px;
+}
+.hobbies{
+    gap: 1rem;
+}
+form,.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form.hobbie{
+    align-items: stretch;
+}
+.login h1{
+    text-align: center;
+}
+input:not(input[type='checkbox'], input[type='file']), textarea,select{
+    padding:10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid black
+}
+input[type='file']{
+    margin-bottom:10px;
+}
+.middle{
+    justify-content: center !important;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.stretch{
+    align-items: stretch !important;
+}
+
+.login button, button.submit{
+    background-color: rgb(0, 0, 141);
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-family: impact;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button{
+    background-color: blue;
+    border: dashed black;
+    font-size: 20px;
+    appearance: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1px 1px 30px;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover{
+    background-color: rgb(0, 102, 255);
+
+}
+
+input[type="file"]{
+    font-size: 0;
+}
+.login button:hover{
+    background-color: blue;
+    box-shadow: 1px 1px 10px black;
+}
+
+.outro button{
+    background-color: rgb(20, 149, 0);
+    margin-left: 5%;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+}
+
+.outro button:hover{
+    background-color: rgb(0, 189, 0);
+    box-shadow: 1px 1px 10px black;
+
+}
+
+div:has(.linha){
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.linha{
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+footer{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    gap:1rem;
+}
+
+.fotoperfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:.5rem;
+    margin-left:1rem
+}
+.fotoperfil figure{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin:0;
+    background-color: rgb(142, 142, 142);
+    display: flex;
+    justify-content: center;
+}
+figure img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    gap:1rem;
+}
+main{
+    width: 1300px;
+    margin:auto;
+}
+b{
+    color:crimson;
+}
+strong{
+    font-style: italic;
+}
+.metas-container{
+    gap:1rem;
+}
+h4{
+    margin: 0;
+    height: fit-content;
+    margin: auto 0;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 1rem 0;
+    padding-right: 1rem;
+    margin-right: auto;
+    color:black;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.logo img{
+    width: 125px;
+    height: 125px;
+}
+.logo h1{
+    padding:1rem;
+    margin: 0;
+}
+.texto p{
+    text-align: justify;
+    margin:1rem 0 ;
+}
+.texto p a{
+    color:rgb(0, 0, 207);
+    
+}
+
+.texto{
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1300px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+header a{
+    color:black;
+
+}
+
+header a:hover{
+    color: rgb(70, 70, 70);
+}
+.marginend{
+    margin-bottom: 2rem;
+}
+.marginstart{
+    margin-top: 2rem;
+}
+footer, .full{
+    margin-top: auto;
+    display: flex;
+}
+footer{
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.full{
+    width: 1400px;
+    max-width: 1400px;
+    justify-content: space-between;
+}
+.full p{
+    text-align: center;
+    width: 100%;
+}
+
+.fotos{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.fotos p{
+    margin: 10px;
+}
+
+.fotos img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: solid black 2px;
+    
+}
+.fotoperfildef{
+    background-color: #C6C6C6;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+.seila{
+    display: flex;
+    max-width: 1300px;
+    width:fit-content;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.navnav{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 3rem;
+    margin:auto 0;
+}
+.navnav a{
+    color:black;
+    background-color: #d9d9d9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 100px;
+    padding:5px 20px;
+    text-align: center;
+    transition: box-shadow 0.1s ease-out ;
+}
+.navnav a:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}

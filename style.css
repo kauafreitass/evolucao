@@ -49,7 +49,7 @@ body{
 .site:after{
     background: rgba(0, 0, 0, 0.5);
     filter: blur(10px);
-    z-index: -2;
+    z-index: -3;
     transition: transform 0.25s ease-out,
                 filter 0.25s ease-out;
 }
@@ -58,10 +58,13 @@ body{
     filter: blur(15px);
 }
 .site:before{
-    z-index: -1;
+    z-index: -2;
     transform: translateX(-20px) translateY(-20px);
     background-color: whitesmoke;
     background:  linear-gradient( -60deg,whitesmoke, rgb(170, 170, 170),whitesmoke 60%);
+}
+.site:hover:before, .site:focus:before{
+    z-index: -1;
 }
 figure{
     width: 200px;
