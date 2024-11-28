@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/aposentadoria.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .coluna {
+            width: 750px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="assets/img/logo medicina.png" height="120px">
+        </div>
+
+        <div class="buttons">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" id="body">About</a>
+                        <ul class="dropdown" id="dropdown">
+                            <li><a href="cursinhos.html">Cursinhos</a></li>
+                            <li><a href="faculdades.html">Faculdades</a></li>
+                            <li><a href="trajetorias.html" id="body2">Trajetorias</a></li>
+                            <li><a href="residenciaobrigatorio.html">Residencia e obrigatoria?</a></li>
+                            <li><a href="residencia.html" id="residencia">Residencia</a>
+                                <ul class="dropdown2 hidden" id="dropdown2">
+                                    <li><a href="cardiologista.html">Cardiologista</a></li>
+                                    <li><a href="neurocirurgiao.html">Neurocirurgiao</a></li>
+                                    <li><a href="cirurgiaoplastico.html">Cirurgiao Plastico</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="plantoes.html">Plantões</a></li>
+                            <li><a href="aposentadoria.html">Aposentadoria</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <section class="coluna">
+        <a href="#" class="artigo">
+
+            <div class="corpo-artigo">
+                <h2 class="titulo-artigo">Residência</h2>
+                <p class="conteudo-artigo">
+                    Uma residência médica é um programa de treinamento pós-graduado oferecido a médicos recém-formados,
+                    onde eles recebem educação e treinamento prático em uma especialidade médica específica. Durante a
+                    residência, os médicos, conhecidos como residentes, trabalham sob a supervisão de preceptores e
+                    instrutores experientes para adquirir habilidades clínicas, conhecimento teórico e experiência
+                    prática em sua área de especialização.
+                    <br><br>
+                    As residências médicas são geralmente realizadas em hospitais universitários ou centros médicos
+                    afiliados a instituições de ensino superior. Os programas de residência variam em duração, podendo
+                    durar de três a sete anos, dependendo da especialidade escolhida. Durante esse período, os
+                    residentes participam de rotações em diferentes serviços médicos, clínicas e unidades hospitalares,
+                    onde ganham experiência em diversas áreas da medicina.
+                    <br><br>
+                    O objetivo principal das residências médicas é preparar os médicos para a prática independente em
+                    sua especialidade escolhida. Isso envolve o desenvolvimento de habilidades clínicas avançadas, a
+                    compreensão aprofundada da patologia e fisiopatologia da especialidade, a capacidade de tomar
+                    decisões clínicas fundamentadas e a comunicação eficaz com pacientes e membros da equipe de saúde.
+                    <br><br>
+                    Durante a residência, os residentes também podem ter a oportunidade de realizar pesquisas clínicas
+                    ou acadêmicas, participar de conferências e atividades educacionais, e se preparar para exames de
+                    certificação em sua especialidade. Ao final do programa de residência, os médicos geralmente recebem
+                    um certificado de conclusão e estão prontos para ingressar na prática clínica independente ou buscar
+                    subspecializações adicionais.
+                </p>
+
+            </div>
+        </a>
+    </section>
+
+    <script>
+        const residencia = document.getElementById('residencia');
+        const dropdown2 = document.getElementById('dropdown2');
+        const dropdown = document.getElementById('dropdown');
+        const body = document.getElementById('body');
+        const body2 = document.getElementById('body2');
+
+        residencia.addEventListener('mouseover', function () {
+            // Mostrar o dropdown2
+            dropdown2.classList.remove('hidden');
+            console.log('dropdown2 visível');
+        });
+
+        // Evento de retirar o mouse do menu dropdown2
+        body.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+        body2.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+
+    </script>
+
+</body>
+
+</html>

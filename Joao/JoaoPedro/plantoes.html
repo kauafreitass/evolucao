@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/aposentadoria.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="assets/img/logo medicina.png" height="120px">
+        </div>
+
+        <div class="buttons">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" id="body">About</a>
+                        <ul class="dropdown" id="dropdown">
+                            <li><a href="cursinhos.html">Cursinhos</a></li>
+                            <li><a href="faculdades.html">Faculdades</a></li>
+                            <li><a href="trajetorias.html" id="body2">Trajetorias</a></li>
+                            <li><a href="residenciaobrigatorio.html">Residencia e obrigatoria?</a></li>
+                            <li><a href="residencia.html" id="residencia">Residencia</a>
+                                <ul class="dropdown2 hidden" id="dropdown2">
+                                    <li><a href="cardiologista.html">Cardiologista</a></li>
+                                    <li><a href="neurocirurgiao.html">Neurocirurgiao</a></li>
+                                    <li><a href="cirurgiaoplastico.html">Cirurgiao Plastico</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="plantoes.html">Plantões</a></li>
+                            <li><a href="aposentadoria.html">Aposentadoria</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main class="colunas principal">
+        <section class="coluna coluna-principal">
+
+            <div class="colunas">
+                <div class="coluna coluna-agrupada">
+                    <a href="#" class="artigo">
+                        <figure class="artigo-imagem is-16by9">
+                            <img src="assets/img/6243269a51b545c625c275e4_plantões médicos.jpg" alt="" />
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="coluna">
+
+
+
+
+            </div>
+        </section>
+
+        <section class="coluna">
+            <a href="#" class="artigo">
+
+                <div class="corpo-artigo">
+                    <h2 class="titulo-artigo">Por que solicitar a aposentadoria especial dos médicos</h2>
+                    <p class="conteudo-artigo">
+                        Os plantões médicos são períodos em que os médicos ficam de prontidão para atender emergências e
+                        urgências em hospitais e clínicas. Eles são essenciais para garantir que os pacientes recebam
+                        atendimento imediato e contínuo, independentemente da hora do dia ou da noite.
+                        <br><br>
+                        Rotina de Plantão<br>
+                        - Escala de Plantão: Médicos são escalados para turnos específicos, que podem ser diurnos,<br>
+                        noturnos, ou de fim de semana. A duração dos plantões varia, geralmente entre 12 e 24 horas.
+                        - Atividades: Atendimentos emergenciais, procedimentos cirúrgicos, consultas de urgência,<br>
+                        acompanhamento de pacientes internados e coordenação com outros profissionais de saúde.
+                        - Comunicação: Transferência de informações detalhadas entre equipes na troca de turno para<br>
+                        garantir continuidade do cuidado.<br>
+                    <details>
+                        <br>
+                        Desafios dos Plantões<br>
+                        <br>
+                        • Exaustão Física e Mental: Longas horas de trabalho contínuo.<br>
+                        • Tomada Rápida de Decisões: Decisões críticas com informações limitadas.<br>
+                        • Carga Emocional: Lidar com situações de vida ou morte.<br>
+                        • Equilíbrio Trabalho-Vida Pessoal: Horas irregulares dificultam o equilíbrio.<br>
+                        <br>
+                        Importância dos Plantões
+                        <br>
+                        • Atendimento Contínuo: Cuidados médicos 24/7.<br>
+                        • Resposta Rápida a Emergências: Imediata resposta a situações críticas.<br>
+                        • Suporte Hospitalar: Manutenção do funcionamento dos hospitais.<br>
+                        <br>
+                        Avanços e Melhorias
+                        <br>
+                        • Tecnologia e Suporte: Sistemas eletrônicos para registro e comunicação.<br>
+                        • Escalas Otimizadas: Melhorias para evitar exaustão.<br>
+                        • Treinamento Contínuo: Capacitação para gestão de estresse e decisões rápidas.<br>
+                        <br>
+                        Conclusão
+                        <br>
+                        Plantões são cruciais para a prontidão e resposta a emergências médicas. Melhorias na gestão e
+                        suporte aos médicos são necessárias para aumentar a eficácia e o bem-estar dos profissionais de
+                        saúde.</details>
+
+                    </p>
+
+                </div>
+            </a>
+
+
+
+
+
+
+        </section>
+    </main>
+
+    <script>
+        const residencia = document.getElementById('residencia');
+        const dropdown2 = document.getElementById('dropdown2');
+        const dropdown = document.getElementById('dropdown');
+        const body = document.getElementById('body');
+        const body2 = document.getElementById('body2');
+
+        residencia.addEventListener('mouseover', function () {
+            // Mostrar o dropdown2
+            dropdown2.classList.remove('hidden');
+            console.log('dropdown2 visível');
+        });
+
+        // Evento de retirar o mouse do menu dropdown2
+        body.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+        body2.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+
+    </script>
+
+</body>
+
+</html>
