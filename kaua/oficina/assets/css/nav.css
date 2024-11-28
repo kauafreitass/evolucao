@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    transition: opacity 0.1s ease;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-principal);
+    height: 10%;
+    padding: 4px 24px;
+    position: relative;
+    border-bottom: 1px solid var(--cor-hover);
+}
+
+.nav-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logo a img {
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.login-btn {
+    color: var(--login-color);
+    font-size: 20px;
+    text-decoration: none;
+
+    transition: 0.5s ease;
+}
+
+.login-btn:hover {
+    color: var(--link-hover);
+}
+.services {
+    display: flex;
+    gap: 24px;
+}
+
+.services a {
+    color: var(--cor-letra);
+    text-decoration: none;
+    
+    transition: 0.5s ease;
+}
+
+.services a:hover {
+    color: var(--link-hover);
+}
