@@ -1,7 +1,7 @@
 <?php
 // /View/controle/index.php
-require_once 'C:\aluno2\xampp\htdocs\planilha\config\database.php';
-require_once 'C:\aluno2\xampp\htdocs\planilha\Controller\TarefasController.php';
+require_once 'C:\aluno2\xampp\htdocs\evolucao\GustavoBueno\planilha\planilha\config\database.php';
+require_once 'C:\aluno2\xampp\htdocs\evolucao\GustavoBueno\planilha\planilha\Controller\TarefasController.php';
 
 $controller = new TarefasController($pdo);
 

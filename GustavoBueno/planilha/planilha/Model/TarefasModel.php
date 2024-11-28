@@ -1,6 +1,6 @@
 <?php
 // /Model/TarefasModel.php
-require_once 'C:\aluno2\xampp\htdocs\planilha\config\database.php';
+require_once 'C:\aluno2\xampp\htdocs\evolucao\GustavoBueno\planilha\planilha\config\database.php';
 
 class TarefasModel {
     private $pdo;

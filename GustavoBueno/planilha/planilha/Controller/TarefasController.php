@@ -1,6 +1,6 @@
 <?php
 // /Controller/TarefasController.php
-require_once 'C:\aluno2\xampp\htdocs\planilha\Model\TarefasModel.php';
+require_once 'C:\aluno2\xampp\htdocs\evolucao\GustavoBueno\planilha\planilha\Model\TarefasModel.php';
 
 class TarefasController {
     private $model;
@@ -19,7 +19,7 @@ class TarefasController {
 
     public function exibirListaTarefas() {
         $tarefas = $this->model->listarTarefas();
-        include 'C:\aluno2\xampp\htdocs\planilha\view\listar.php';
+        include 'C:\aluno2\xampp\htdocs\evolucao\GustavoBueno\planilha\planilha\view\listar.php';
     }
     public function deletarTarefa ($id_tarefa){
         $this->model->deletarTarefa($id_tarefa);}
