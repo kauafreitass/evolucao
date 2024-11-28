@@ -8,6 +8,18 @@ body {
     text-align: center;
 }
 
+.btn-container a{
+    position: relative;
+    margin-right: 1000px;
+    top: 50px;
+}
+.btn{
+    color: #ffffff;
+    background-color: #7a6447;
+    border: none;
+    padding: 8px;
+    border-radius: 12px;
+}
 h1, h2 {
     margin-top: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -15,7 +27,7 @@ h1, h2 {
 
 h1 {
     font-size: 2rem;
-    color: #8f785a; /* Marrom claro */
+    color: #6a5c4a; /* Marrom claro */
 }
 
 h2 {

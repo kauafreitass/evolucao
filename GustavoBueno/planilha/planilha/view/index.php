@@ -28,6 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Gerenciamento de Tarefas</title>
 </head>
 <body>
+    <div class="btn-container"><a  href="../../../primeirotrabalho.html"><button class="btn">VOLTAR</button></a></div>
+
     <div class="container">
         <h1>Registrar Tarefa</h1>
         <form method="POST" class="form-tarefa">
@@ -54,6 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             <input type="submit" value="Registrar Tarefa">
         </form>
+
 
         <h2>Lista de Tarefas</h2>
         <table class="tarefas-table">
