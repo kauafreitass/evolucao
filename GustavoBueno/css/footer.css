@@ -1,0 +1,31 @@
+.footer-links img {
+
+    width: 45px;
+    height: 45px;
+    gap: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgba(240, 240, 240, 0.5);
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    height: 90px;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
