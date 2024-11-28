@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/aposentadoria.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .coluna {
+            width: 750px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="assets/img/logo medicina.png" height="120px">
+        </div>
+
+        <div class="buttons">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" id="body">About</a>
+                        <ul class="dropdown" id="dropdown">
+                            <li><a href="cursinhos.html">Cursinhos</a></li>
+                            <li><a href="faculdades.html">Faculdades</a></li>
+                            <li><a href="trajetorias.html" id="body2">Trajetorias</a></li>
+                            <li><a href="residenciaobrigatorio.html">Residencia e obrigatoria?</a></li>
+                            <li><a href="residencia.html" id="residencia">Residencia</a>
+                                <ul class="dropdown2 hidden" id="dropdown2">
+                                    <li><a href="cardiologista.html">Cardiologista</a></li>
+                                    <li><a href="neurocirurgiao.html">Neurocirurgiao</a></li>
+                                    <li><a href="cirurgiaoplastico.html">Cirurgiao Plastico</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="plantoes.html">Plantões</a></li>
+                            <li><a href="aposentadoria.html">Aposentadoria</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <section class="coluna">
+        <a href="#" class="artigo">
+
+            <div class="corpo-artigo">
+                <h2 class="titulo-artigo">Residência é obrigatória?</h2>
+                <p class="conteudo-artigo">
+                    A residência médica não é obrigatória em todos os países, mas é uma etapa comum na formação de
+                    médicos em muitos sistemas de saúde ao redor do mundo. Aqui estão algumas informações importantes
+                    sobre esse assunto:
+                    <br><br>
+                    1. Países onde a Residência é Obrigatória: Em alguns países, como os Estados Unidos, Canadá,
+                    Brasil e muitos países europeus, a residência médica é uma etapa obrigatória na formação médica. Os
+                    médicos devem completar com sucesso um programa de residência aprovado para obter a licença para
+                    praticar de forma independente em suas especialidades.
+                    <br><br>
+                    2. Propósito da Residência: A residência médica tem o objetivo de fornecer aos médicos em formação
+                    a oportunidade de adquirir habilidades práticas, conhecimento especializado e experiência clínica em
+                    uma especialidade específica. Ela é fundamental para preparar os médicos para a prática clínica
+                    independente e para garantir a qualidade e segurança do atendimento médico.
+                    <br><br>
+                    3. Duração e Estrutura: A duração e a estrutura dos programas de residência variam de acordo com o
+                    país e a especialidade. Em geral, os programas de residência duram de três a sete anos, dependendo
+                    da especialidade escolhida. Durante a residência, os médicos passam por uma combinação de
+                    treinamento clínico, educação acadêmica e rotações em diferentes áreas da medicina.
+                    <br><br>
+                    4. Certificação e Licenciamento: Ao completar com sucesso um programa de residência aprovado, os
+                    médicos podem se submeter a exames de certificação em sua especialidade, administrados por
+                    organizações profissionais médicas. A obtenção de uma certificação é frequentemente um requisito
+                    para obter a licença para praticar de forma independente em muitos países.
+                    <br><br>
+                    5. Alternativas à Residência: Em alguns países, os médicos podem optar por não fazer uma
+                    residência e, em vez disso, seguir outros caminhos de carreira, como trabalhar em clínicas gerais ou
+                    clínicas de atenção primária. No entanto, a residência é geralmente considerada a melhor maneira de
+                    obter treinamento especializado e se tornar um médico altamente qualificado em uma especialidade
+                    específica.
+                    <br><br>
+                    Em resumo, enquanto a residência médica não é obrigatória em todos os países, ela é amplamente
+                    reconhecida como uma etapa fundamental na formação de médicos em muitos sistemas de saúde ao redor
+                    do mundo.
+                </p>
+
+            </div>
+        </a>
+
+
+
+
+
+
+    </section>
+
+    <script>
+        const residencia = document.getElementById('residencia');
+        const dropdown2 = document.getElementById('dropdown2');
+        const dropdown = document.getElementById('dropdown');
+        const body = document.getElementById('body');
+        const body2 = document.getElementById('body2');
+
+        residencia.addEventListener('mouseover', function () {
+            // Mostrar o dropdown2
+            dropdown2.classList.remove('hidden');
+            console.log('dropdown2 visível');
+        });
+
+        // Evento de retirar o mouse do menu dropdown2
+        body.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+        body2.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+
+    </script>
+
+</body>
+
+</html>

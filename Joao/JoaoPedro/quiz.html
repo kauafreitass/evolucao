@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Quiz App</title>
+</head>
+
+<style>
+  .hidden {
+    display: none;
+  }
+  .div-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+</style>
+
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      <img src="assets/img/logo medicina.png" height="120px">
+    </div>
+
+    <div class="buttons">
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#" id="body">Sobre</a>
+            <ul class="dropdown" id="dropdown">
+              <li><a href="cursinhos.html">Cursinhos</a></li>
+              <li><a href="faculdades.html">Faculdades</a></li>
+              <li><a href="trajetorias.html" id="body2">Trajetorias</a></li>
+              <li><a href="">Materiais utilizadas</a></li>
+              <li><a href="residenciaobrigatorio.html">Residencia e obrigatoria?</a></li>
+              <li><a href="residencia.html" id="residencia">Residencia</a>
+                <ul class="dropdown2 hidden" id="dropdown2">
+                  <li><a href="cardiologista.html">Cardiologista</a></li>
+                  <li><a href="neurocirurgiao.html">Neurocirurgiao</a></li>
+                  <li><a href="cirurgiaoplastico.html">Cirurgiao Plastico</a></li>
+                </ul>
+              </li>
+              <li><a href="plantoes.html">Plantões</a></li>
+              <li><a href="aposentadoria.html">Aposentadoria</a></li>
+              <li><a href="quiz.html">Quiz</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#contato">Sugestão</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <div class="div-form">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLScwySjO1A6tvdOPNOS9AhdPFqCh9tusUaTZ2B3pdIbYpveLdQ/viewform?embedded=true"
+      width="640" height="1935" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+  </div>
+
+
+  <script>
+    const residencia = document.getElementById('residencia');
+    const dropdown2 = document.getElementById('dropdown2');
+    const dropdown = document.getElementById('dropdown');
+    const body = document.getElementById('body');
+    const body2 = document.getElementById('body2');
+
+    residencia.addEventListener('mouseover', function () {
+      // Mostrar o dropdown2
+      dropdown2.classList.remove('hidden');
+      console.log('dropdown2 visível');
+    });
+
+    // Evento de retirar o mouse do menu dropdown2
+    body.addEventListener('mouseover', function () {
+      // Esconder o dropdown2
+      dropdown2.classList.add('hidden');
+      console.log('dropdown2 oculto');
+    });
+    body2.addEventListener('mouseover', function () {
+      // Esconder o dropdown2
+      dropdown2.classList.add('hidden');
+      console.log('dropdown2 oculto');
+    });
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+  html {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(227, 227, 227, 1) 11%);
+      overflow-x: hidden;
+
+  }
+
+  .header {
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+  .buttons {
+      font-size: 20px;
+      display: flex;
+      justify-content: end;
+  }
+
+  .buttons a {
+      padding: 30px;
+      text-decoration: none;
+      color: black;
+      transition: 0.4s;
+  }
+
+  .buttons :hover {
+      color: #10c400;
+  }
+
+  .nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .nav li {
+      display: inline-block;
+      position: relative;
+  }
+
+  .nav a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+  }
+
+  .nav .dropdown {
+      display: none;
+      position: absolute;
+
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+  }
+
+  .nav .dropdown li {
+      display: block;
+  }
+
+  .nav li:hover .dropdown {
+      display: block;
+  }
+
+  a {
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  }
+
+  div,
+  h2,
+  p,
+  figure {
+      margin: 0;
+      padding: 0;
+  }
+
+  /* esse header será alterado para outro nome, no html e css*/
+  .Cabecalho {
+      color: rgb(0, 0, 0);
+      padding: 40px 0 20px;
+      text-align: center;
+  }
+
+  .Cabecalho h1 {
+      font-size: 40px;
+      font-weight: bold;
+  }
+
+  .Cabecalho h2 a {
+      border-bottom: 1px solid rgb(48, 48, 48);
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      opacity: 0.5;
+  }
+
+  .Cabecalho h2 a:hover {
+      border-bottom-color: aliceblue;
+      opacity: 1;
+  }
+
+  .principal {
+      margin: 0 auto;
+      max-width: 1040px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .coluna {
+      flex: 1;
+      flex-direction: column;
+  }
+
+  .artigo {
+      background: white;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+      color: #666;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      flex-basis: auto;
+      margin: 10px;
+      border-radius: 15px;
+  }
+
+  .artigo:hover,
+  .artigo:focus {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      color: #444;
+  }
+
+  .artigo-imagem {
+      background: #eee;
+      display: block;
+      padding-top: 75%;
+      position: relative;
+      border-radius: 15px;
+      width: 100%;
+  }
+
+  .artigo-imagem img {
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      border-radius: 15px;
+  }
+
+  .artigo-imagem.is-3by2 {
+      padding-top: 66.6666%;
+  }
+
+  .artigo-imagem.is-16by9 {
+      padding-top: 56.25%;
+  }
+
+  .corpo-artigo {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .titulo-artigo {
+      color: #333;
+      flex-shrink: 0;
+      font-size: 1.4em;
+      font-weight: 700;
+      line-height: 1.2;
+  }
+
+  .conteudo-artigo {
+      flex: 1;
+      margin-top: 5;
+  }
+
+  .artigo-info {
+      display: flex;
+      font-size: 0.85em;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+
+  @media screen and (min-width: 800px) {
+
+      .colunas,
+      .coluna {
+          display: flex;
+      }
+  }
+
+  @media screen and (min-width: 1000px) {
+      .primeiro-artigo {
+          flex-direction: row;
+      }
+
+      .primeiro-artigo .corpo-artigo {
+          flex: 1;
+      }
+
+      .primeiro-artigo .artigo-imagem {
+          height: 300px;
+          order: 2;
+          padding-top: 0;
+          width: 400px;
+      }
+
+      .coluna-principal {
+          flex: 3;
+      }
+
+      .coluna-agrupada {
+          flex: 2;
+      }
+  }
