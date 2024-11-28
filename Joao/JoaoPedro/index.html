@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo medicina.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="assets/img/logo medicina.png" height="120px">
+        </div>
+
+        <div class="buttons">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#" id="body">Sobre</a>
+                        <ul class="dropdown" id="dropdown">
+                            <li><a href="cursinhos.html">Cursinhos</a></li>
+
+                            <li><a href="faculdades.html">Faculdades</a></li>
+                            <li><a href="trajetorias.html" id="body2">Trajetorias</a></li>
+                            <li><a href="">Materiais utilizadas</a></li>
+                            <li><a href="residenciaobrigatorio.html">Residencia e obrigatoria?</a></li>
+                            <li><a href="residencia.html" id="residencia">Residencia</a>
+                                <ul class="dropdown2 hidden" id="dropdown2">
+                                    <li><a href="cardiologista.html">Cardiologista</a></li>
+                                    <li><a href="neurocirurgiao.html">Neurocirurgiao</a></li>
+                                    <li><a href="cirurgiaoplastico.html">Cirurgiao Plastico</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="plantoes.html">Plantões</a></li>
+                            <li><a href="aposentadoria.html">Aposentadoria</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Sugestão</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <section class="section">
+        <div class="img">
+            <img src="assets/img/YpGY.gif" alt="">
+        </div>
+        <div class="topicos">
+
+            <ul>
+
+                <h2>Topicos:</h2>
+
+                <a href="cursinhos.html">
+                    <li>Melhores cursinhos para fazer
+                        antes de prestar a faculdade de
+                        medicina
+                    </li>
+                </a>
+
+
+                <a href="faculdades.html">
+                    <li>
+                        Melhores faculdades para o
+                        ramo de medicina
+                    </li>
+                </a>
+
+                <a href="trajetorias.html">
+                    <li>
+                        Trajetorias
+                    </li>
+                </a>
+
+                <a href="">
+                    <li>
+                        Materiais utilizados
+                    </li>
+                </a>
+
+                <a href="residenciaobrigatorio.html">
+                    <li>
+                        Você é obrigado a fazer residencia ?
+                    </li>
+                </a>
+
+                <a href="residencia.html">
+                    <li>
+                        Residencia
+                </a>
+
+                <ul>
+                    <a href="cardiologista.html">
+                        <li>Cardiologista</li>
+                    </a>
+
+                    <a href="neurocirurgiao.html">
+                        <li>Neurocirurgião</li>
+                    </a>
+
+                    <a href="cirurgiaoplastico.html">
+                        <li>Cirurgião plastico</li>
+                    </a>
+                </ul>
+
+                </li>
+                <a href="plantoes.html">
+                    <li>
+                        Plantões
+                    </li>
+                </a>
+
+                <a href="aposentadoria.html">
+                    <li>
+                        Aposentadoria
+                    </li>
+                </a>
+
+                <a href="quiz.html">
+                    <li>
+                        Quiz
+                    </li>
+                </a>
+
+                <a href="contato.html">
+                    <li>
+                        Contato
+                    </li>
+                </a>
+                </ol>
+        </div>
+
+    </section>
+
+
+
+    <footer class="rodape" id="contato">
+        <p class="rodape-direitos">Copyright © 2024 – Todos os Direitos Reservados.</p>
+    </footer>
+
+
+    <script>
+        const residencia = document.getElementById('residencia');
+        const dropdown2 = document.getElementById('dropdown2');
+        const dropdown = document.getElementById('dropdown');
+        const body = document.getElementById('body');
+        const body2 = document.getElementById('body2');
+
+        residencia.addEventListener('mouseover', function () {
+            // Mostrar o dropdown2
+            dropdown2.classList.remove('hidden');
+            console.log('dropdown2 visível');
+        });
+
+        // Evento de retirar o mouse do menu dropdown2
+        body.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+        body2.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+
+    </script>
+
+
+</body>
+
+</html>

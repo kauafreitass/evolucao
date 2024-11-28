@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo">
+            <img src="assets/img/logo medicina.png" height="120px">
+        </div>
+
+        <div class="buttons">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" id="body">About</a>
+                        <ul class="dropdown" id="dropdown">
+                            <li><a href="cursinhos.html">Cursinhos</a></li>
+                            <li><a href="faculdades.html">Faculdades</a></li>
+                            <li><a href="trajetorias.html" id="body2">Trajetorias</a></li>
+                            <li><a href="residenciaobrigatorio.html">Residencia e obrigatoria?</a></li>
+                            <li><a href="residencia.html" id="residencia">Residencia</a>
+                                <ul class="dropdown2 hidden" id="dropdown2">
+                                    <li><a href="cardiologista.html">Cardiologista</a></li>
+                                    <li><a href="neurocirurgiao.html">Neurocirurgiao</a></li>
+                                    <li><a href="cirurgiaoplastico.html">Cirurgiao Plastico</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="plantoes.html">Plantões</a></li>
+                            <li><a href="aposentadoria.html">Aposentadoria</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="formularioContato">
+        
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <label>
+                <span><i class="icon icon-user-1"></i> Nome</span>
+                <input type="text" name="nome" required="">
+            </label>
+            
+            <label>
+                <span><i class="icon icon-email"></i> E-mail</span>
+                <input type="text" name="email" class="fade_8S">
+            </label>
+
+            <label>
+                <span><i class="icon icon-flag"></i> Assunto</span>
+                <input type="text" name="assunto" required="">
+            </label>
+            
+            <label>
+                <span><i class="icon icon-comment"></i> Mensagem</span>
+                 <textarea name="mensagem" rows="3" required=""></textarea> 
+            </label>
+           
+            <input type="hidden" name="acao" value="enviar" />
+            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+
+        
+        </form>
+
+    </div><!--Formulario Contato-->
+
+    
+    <script>
+        const residencia = document.getElementById('residencia');
+        const dropdown2 = document.getElementById('dropdown2');
+        const dropdown = document.getElementById('dropdown');
+        const body = document.getElementById('body');
+        const body2 = document.getElementById('body2');
+
+        residencia.addEventListener('mouseover', function () {
+            // Mostrar o dropdown2
+            dropdown2.classList.remove('hidden');
+            console.log('dropdown2 visível');
+        });
+
+        // Evento de retirar o mouse do menu dropdown2
+        body.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+        body2.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+
+    </script>
+
+</body>
+</html>
