@@ -86,3 +86,9 @@ body {
     margin-bottom: 32px;
     opacity: .2;
 }
+
+.image {
+    width: 50%; /* Ou outro tamanho que preferir */
+    height: auto;
+    margin: 0 auto;
+}
