@@ -1,0 +1,71 @@
+
+@import 'footer.css';
+
+* {
+    margin: 0;
+}
+
+body {
+    color: antiquewhite;
+    font-family: italic;
+    background: gray;
+    background: linear-gradient(180deg, black 0%, #7f7f7f 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagem {
+    height: 400px;
+    width: 950px;
+    border-radius: 20px;
+}
+
+.texto {    
+   
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    left: 60px;
+    right: 60px;
+    box-shadow: 10px 5px 5px black;
+    border-width: 5px;
+    /* Estiliza a sua largura*/
+    border-style: solid;
+    /* Estiliza seu estilo*/
+    border-color: rgb(184, 178, 125);
+    /* Estiliza sua cor*/
+}
+
+.gif{
+    text-align: center;
+    
+}
+
+nav {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background: black;
+    display: flex;
+}
+
+nav ul {
+    background-color: black;
+    height: 50px;
+    display: flex;
+}
+
+nav a {
+    color: wheat;
+    text-decoration: none;
+    /*tira linha baixo*/
+    padding: 15px;
+}
+
+nav li a:hover {
+    background-color: red;
+}
+
+.imagem_cara{
+    width: 300px;
+    height: 200px;
+}
