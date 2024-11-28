@@ -60,7 +60,7 @@
             <div class="content-container">
                 <h3 class="project-title">Integração de Tecnologias</h3>
                 <p class="project-description">
-                    O projeto explora a integração de HTML, CSS e PHP, criando funcionalidades dinâmicas e interativas.
+                    O projeto explora a integração de HTML, CSS, criando funcionalidades dinâmicas e interativas.
                 </p>
             </div>
         </div>
