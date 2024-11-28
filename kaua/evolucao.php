@@ -12,7 +12,6 @@
 
     <nav class="navigation-bar">
         <a href="../evolucao.php">Voltar para a página inicial</a>
-        <a href="oficina/">Projeto atual</a>
     </nav>
 
     <main>
