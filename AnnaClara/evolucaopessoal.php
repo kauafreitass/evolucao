@@ -81,7 +81,7 @@
         </div>
         <div class="info-item" >
             <h3>Próximos Passos</h3>
-            <p>Meu objetivo é explorar frameworks modernos para ampliar minhas habilidades e trazer ainda mais interatividade às minhas criações.</p>
+            <p>Meu objetivo é explorar designs modernos para ampliar minhas habilidades e trazer ainda mais interatividade às minhas criações.</p>
         </div>
         <div class="info-item" >
             <h3>Otimização de Performance</h3>
