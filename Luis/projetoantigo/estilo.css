@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+
+html{
+    background: rgba(119, 175, 255, 0.982);
+    font-size: 14px;
+    /* comando para escala em cinza nas fontes e contornos */
+    -moz-osx-font-smoothing: grayscale; 
+    /*tira o frizo em volta da letra.*/
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    /*barra de rolagem oculta no eixo x*/
+    overflow-x: hidden;
+    /*barra de rolagem no canto do navegador direito*/
+    overflow-y: scroll;
+    /*melhora a leitura e visualização do texto em sua renderização*/
+    text-rendering: optimizeLegibility;
+}
+body{
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+div, h2, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* esse header será alterado para outro nome, no html e css*/
+.cabecalho {
+    color: white;
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cabecalho h2 a {
+    border-bottom: 1px solid rgb(48, 48, 48);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    opacity: 0.5;
+}
+.cabecalho h2 a:hover {
+    border-bottom-color: aliceblue;
+    opacity: 1;
+}
+.principal {
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 10px;
+}
+
+.coluna{
+    flex: 1;
+    flex-direction: column;
+}
+.artigo{
+    background: white;
+    box-shadow:0 1px 3px rgba( 0, 0, 0, 0.12),0 10px 10px rgba( 0, 0, 0, 0.24);
+    color: #666;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 10px;
+}
+.artigo:hover, .artigo:focus {
+    box-shadow: 0 14px 28px rgba( 0, 0, 0, 0.25), 0 10px 10px rgba( 0, 0, 0, 0.22);
+    color: #444;
+}
+
+.artigo-imagem {
+    background: #eee;
+    display: block;
+    padding-top: 75%;
+    position: relative;
+    width: 100%;
+}
+
+.artigo-imagem img{
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.artigo-imagem.is-3by2{
+    padding-top: 66.6666%;
+}
+.artigo-imagem.is-16by9{
+    padding-top: 56.25%;
+}
+.artigo-corpo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+.artigo-titulo{
+    color: #333;
+    flex-shrink: 0;
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.artigo-conteudo{
+    flex: 1;
+    margin-top: 5;
+}
+.artigo-info {
+    display: flex;
+    font-size: 0.85em;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 800px){
+    .colunas, .coluna{
+        display: flex;
+    }
+}
+@media screen and (min-width: 1000px){
+    .artigo-first{
+        flex-direction: row;
+    }
+    .artigo-first .artigo-corpo{
+        flex:1;
+    }
+    .artigo-first .artigo-imagem{
+        height: 300px;
+        order: 2;
+        padding-top: 0;
+        width: 400px;
+    }
+    .principal-coluna {
+        flex:3;
+    }
+    .nested-coluna{
+        flex: 2;
+    }
+
+}
+
+
+   
+   /* para comentário dentro do CSS utilzamos "/* */   /*  */
+   /* para html utilizamos o comentário <!-- -->  */
+   .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(17, 37, 140);
+    color: #ffff;
+}
+.nav-link a {
+    color: #ffff;
+}
+/* Logo a esquerdo do menu*/
+.logo{
+    font-size: 32px;
+}
+.logo a{
+    color: #ffff;
+}
+/*menu do navbar estilização a direita do navegador*/
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover{
+    background-color: rgb(0, 128, 255);
+    border-radius: 7px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+/*Hack para checkbox (gambiarra)*/
+input[type=checkbox]{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+a { 
+    text-decoration: none;
+}
+li {
+     list-style: none;
+}
+/*menu responsivo navbar*/
+/*aplicação irá aparecer quando chegara um determinado tamanho*/
+@media (max-width: 768px){
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: rgb(0, 128, 255);
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .menu li:hover{
+        display: inline-block;
+        background-color: rgb(0, 128, 255);
+        transition: 0.3s ease;
+    }
+    .menu li + li {
+        margin-top: 12px;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+}
