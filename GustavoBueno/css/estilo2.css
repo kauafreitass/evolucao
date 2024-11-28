@@ -1,0 +1,31 @@
+@import 'footer.css';
+
+body{
+     font-family: italic;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     background-color: rgb(206, 225, 189);
+}
+
+.imagem{
+    height: 500px;
+    width: 1650px;
+    border-radius: 20px;    
+    display: flex;
+}
+.titulo{
+background-color: rgb(109, 211, 163);
+width: 1000px;
+border-radius: 10px;
+border: 3px solid black;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
