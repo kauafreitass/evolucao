@@ -1,0 +1,13 @@
+:root {
+    --color-background-primary: #f0f4f8;
+    --color-background-secondary: #ffffff;
+    --color-text-primary: #1a365d;
+    --color-text-light: #ffffff;
+    --color-nav-background: #2c5282;
+    --color-nav-hover: #bee3f8;
+    --color-project-title: #3182ce;
+    --color-project-bg-light: #ebf8ff;
+    --color-project-bg-lighter: #e6f2ff;
+    --color-button-bg: #2c5282;
+    --color-button-hover: #3182ce;
+}

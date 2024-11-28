@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Inter:wght@100..900&family=Roboto+Slab:wght@100..900&family=Rubik+Mono+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Slab', monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+header{
+    background:  linear-gradient( 420deg,crimson, darkred, crimson 60%);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-shadow: 0 0 10px black;
+}
+header a{
+    color:whitesmoke;
+    font-size:2rem;
+    border:2px solid whitesmoke;
+    padding:5px 10px;
+    border-radius: 15px;
+    transition: transform 0.25s ease-out;
+}
+header a:hover, header a:focus{
+    transform: scale(1.05);
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover, a:focus{
+    text-decoration: underline;
+    text-decoration-color: unset;
+}
+main{
+    width: 1200px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+main a:has(img){
+    align-self: center;
+    width: 70%;
+    scale: 1;
+    transition: scale 0.25s ease-out;
+}
+main a:has(img):hover, main a:has(img):focus{
+    scale: 0.95;
+}
+
+main a:has(img):hover img, main a:has(img):focus img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+main img{
+    width: 100%;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    transition: box-shadow 0.25s ease-out;
+}
+h3{
+    margin-top: 20px;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/aposentadoria.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+
+        </div>
+
+        <div class="buttons">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" id="body">About</a>
+                        <ul class="dropdown" id="dropdown">
+                            <li><a href="cursinhos.html">Cursinhos</a></li>
+                            <li><a href="faculdades.html">Faculdades</a></li>
+                            <li><a href="trajetorias.html" id="body2">Trajetorias</a></li>
+                            <li><a href="residenciaobrigatorio.html">Residencia e obrigatoria?</a></li>
+                            <li><a href="residencia.html" id="residencia">Residencia</a>
+                                <ul class="dropdown2 hidden" id="dropdown2">
+                                    <li><a href="cardiologista.html">Cardiologista</a></li>
+                                    <li><a href="neurocirurgiao.html">Neurocirurgiao</a></li>
+                                    <li><a href="cirurgiaoplastico.html">Cirurgiao Plastico</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="plantoes.html">Plantões</a></li>
+                            <li><a href="aposentadoria.html">Aposentadoria</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <main class="colunas principal">
+        <section class="coluna coluna-principal">
+
+            <div class="colunas">
+                <div class="coluna coluna-agrupada">
+                    <a href="#" class="artigo">
+                        <figure class="artigo-imagem is-16by9">
+                            <img src="assets/img/Aposentadoria-especial-dos-medicos-2.png" alt="" />
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="coluna">
+
+
+
+
+            </div>
+        </section>
+
+        <section class="coluna">
+            <a href="#" class="artigo">
+
+                <div class="corpo-artigo">
+                    <h2 class="titulo-artigo">Por que solicitar a aposentadoria especial dos médicos</h2>
+                    <p class="conteudo-artigo">
+                        Aaposentadoriaespecial dos médicosgarante o direito de aposentar-se sem idade mínima e sem a
+                        aplicação do fator previdenciário, com apenas 25 anos de trabalho.
+
+                        Porém é necessário que este enfermeiro tenha cumprido o tempo até 13 de novembro de 2019, mesmo
+                        que ainda não tenha pedido o benefício.
+
+                        Também é muito comum o profissional da saúde que não trabalhou durante toda a carreira na área,
+                        convertesse parte deste tempoespecialem comum.
+
+
+                    <details>
+                        Isso não é mais possível para períodos trabalhados após 13 de novembro de 2019, pois a
+                        EC103vetou tal possibilidade, porém para os períodos trabalhados anteriormente é válido.
+
+                        Portanto, se você já tinha os 25 anos de medicina (ou outra atividade especial) até 13 de
+                        novembro de 2019, possui direito adquirido a aposentar-se por meio da antiga legislação.
+
+                        Muitas pessoas desconhecem que já possuíam tal tempo, por isso a importância de juntar a
+                        documentação e procurar o serviço de planejamento previdenciário, realizado por um especialista
+                        em direito previdenciário.</details>
+                    </p>
+
+                </div>
+            </a>
+        </section>
+    </main>
+
+    <script>
+        const residencia = document.getElementById('residencia');
+        const dropdown2 = document.getElementById('dropdown2');
+        const dropdown = document.getElementById('dropdown');
+        const body = document.getElementById('body');
+        const body2 = document.getElementById('body2');
+
+        residencia.addEventListener('mouseover', function () {
+            // Mostrar o dropdown2
+            dropdown2.classList.remove('hidden');
+            console.log('dropdown2 visível');
+        });
+
+        // Evento de retirar o mouse do menu dropdown2
+        body.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+        body2.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+
+    </script>
+
+</body>
+
+</html>

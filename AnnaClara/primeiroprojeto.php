@@ -20,8 +20,8 @@
                     <li><a href="dificuldades.php">♔DIFICULDADES</a></li>
                     <a href="evolucao.php"><h1>EVOLUÇÃO</h1></a>
                     <li><a href="evolucaopessoal.php">♔PROGRESSO</a></li>
-                    <li><a href="contato.php">♔CONTATO</a></li>
-                </ul>
+                    <li><a href="contato.php">❃CONTATO</a></li>
+                    <li><a href="../evolucao.php">♔SAIR</a></li>                </ul>
                 <span>✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰⊱∽∽∽</span>
             </div>
         </nav>
@@ -60,7 +60,7 @@
             <div class="content-container">
                 <h3 class="project-title">Integração de Tecnologias</h3>
                 <p class="project-description">
-                    O projeto explora a integração de HTML, CSS e PHP, criando funcionalidades dinâmicas e interativas.
+                    O projeto explora a integração de HTML, CSS, criando funcionalidades dinâmicas e interativas.
                 </p>
             </div>
         </div>

@@ -1,0 +1,112 @@
+@import "root.css";
+@import "nav.css";
+@import "footer.css";
+@import "other-media.css";
+
+.last-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 3% 0;
+}
+
+.last-services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin: 0 2%;
+}
+
+.last-services-title {
+    user-select: none;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.infos-text {
+    display: flex;
+    padding: 16px;
+}
+
+.vehicle-image img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.vehicle-name h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.infos p {
+    margin: 4px 0;
+    color: #555;
+}
+
+.services-needed {
+    padding: 16px;
+    border-top: 1px solid #eaeaea;
+}
+
+.services-needed h3 {
+    margin: 0 0 8px;
+}
+
+.services-needed ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-needed li {
+    background: #eaeaea;
+    margin: 4px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 12px;
+    margin: 16px;
+}
+
+.delete-btn, .edit-btn {
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.delete-btn a, .edit-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.delete-btn:hover, .edit-btn:hover {
+    transform: scale(1.1);
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.edit-btn {
+    background-color: gold;
+}

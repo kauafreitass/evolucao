@@ -20,8 +20,8 @@
                     <li><a href="dificuldades.php">♔DIFICULDADES</a></li>
                     <a href="evolucao.php"><h1>EVOLUÇÃO</h1></a>
                     <li><a href="evolucaopessoal.php">♔PROGRESSO</a></li>
-                    <li><a href="contato.php">♔CONTATO</a></li>
-                </ul>
+                    <li><a href="contato.php">❃CONTATO</a></li>
+                    <li><a href="../evolucao.php">♔SAIR</a></li>                </ul>
                 <span>✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰⊱∽∽∽</span>
             </div>
         </nav>
@@ -81,7 +81,7 @@
         </div>
         <div class="info-item" >
             <h3>Próximos Passos</h3>
-            <p>Meu objetivo é explorar frameworks modernos como React ou Vue.js para ampliar minhas habilidades e trazer ainda mais interatividade às minhas criações.</p>
+            <p>Meu objetivo é explorar designs modernos para ampliar minhas habilidades e trazer ainda mais interatividade às minhas criações.</p>
         </div>
         <div class="info-item" >
             <h3>Otimização de Performance</h3>
@@ -89,7 +89,7 @@
         </div>
         <div class="info-item" >
             <h3>Design Centrado no Usuário</h3>
-            <p>Incorporei conceitos de UX/UI, utilizando ferramentas de prototipação e testes de usabilidade para criar experiências mais intuitivas e atraentes.</p>
+            <p>Incorporei conceitos, utilizando ferramentas de prototipação e testes de usabilidade para criar experiências mais intuitivas e atraentes.</p>
         </div>
     </div>
 </section>

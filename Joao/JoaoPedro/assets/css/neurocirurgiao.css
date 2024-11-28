@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(227, 227, 227, 1) 11%);
+    overflow-x: hidden;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttons {
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.buttons a {
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.buttons :hover {
+    color: #10c400;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav .dropdown {
+    display: none;
+    position: absolute;
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.nav .dropdown li {
+    display: block;
+}
+
+.nav li:hover .dropdown {
+    display: block;
+}

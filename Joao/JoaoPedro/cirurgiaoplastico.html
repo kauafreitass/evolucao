@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/aposentadoria.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="assets/img/logo medicina.png" height="120px">
+        </div>
+
+        <div class="buttons">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" id="body">About</a>
+                        <ul class="dropdown" id="dropdown">
+                            <li><a href="cursinhos.html">Cursinhos</a></li>
+                            <li><a href="faculdades.html">Faculdades</a></li>
+                            <li><a href="trajetorias.html" id="body2">Trajetorias</a></li>
+                            <li><a href="residenciaobrigatorio.html">Residencia e obrigatoria?</a></li>
+                            <li><a href="residencia.html" id="residencia">Residencia</a>
+                                <ul class="dropdown2 hidden" id="dropdown2">
+                                    <li><a href="cardiologista.html">Cardiologista</a></li>
+                                    <li><a href="neurocirurgiao.html">Neurocirurgiao</a></li>
+                                    <li><a href="cirurgiaoplastico.html">Cirurgiao Plastico</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="plantoes.html">Plantões</a></li>
+                            <li><a href="aposentadoria.html">Aposentadoria</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="colunas principal">
+        <section class="coluna coluna-principal">
+
+            <div class="colunas">
+                <div class="coluna coluna-agrupada">
+                    <a href="#" class="artigo">
+                        <figure class="artigo-imagem is-16by9">
+                            <img src="/assets/img/clinica-de-cirurgia-plastica-em-sp.jpg" alt="" />
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="coluna">
+
+
+
+
+            </div>
+        </section>
+
+        <section class="coluna">
+            <a href="#" class="artigo">
+
+                <div class="corpo-artigo">
+                    <h2 class="titulo-artigo">Cirurgiões Plásticos: Papel, Desafios e Avanços</h2>
+                    <p class="conteudo-artigo">
+                        Cirurgiões plásticos são médicos especializados em procedimentos que visam melhorar a aparência
+                        física e restaurar a função de diferentes partes do corpo. Eles trabalham tanto com cirurgia
+                        estética quanto com cirurgia reconstrutiva.
+
+
+                    <details>
+                        Formação e Treinamento<br>
+                        <br>
+                        • Graduação em Medicina: 6 anos.<br>
+                        • Residência em Cirurgia Geral: 2-3 anos.<br>
+                        • Residência em Cirurgia Plástica: 3-5 anos.<br>
+                        • Especialização: Áreas como cirurgia craniofacial ou microcirurgia.<br>
+                        <br>
+                        Papéis e Responsabilidades
+                        <br>
+                        Tratam:
+                        <br>
+                        • Cirurgia Estética: Rinoplastia, lifting facial, lipoaspiração, aumento de mama.<br>
+                        • Cirurgia Reconstrutiva: Correção de defeitos congênitos, reconstrução pós-trauma e pós-câncer.<br>
+                        • Queimaduras: Tratamento e reparação.<br>
+                        • Cirurgia de Mãos: Tratamento de lesões e deformidades.<br>
+                        <br>
+                        Desafios
+                        <br>
+                        • Gerenciamento das expectativas dos pacientes.<br>
+                        • Minimização de complicações cirúrgicas.<br>
+                        • Manutenção da ética médica.<br>
+                        <br>
+                        Avanços Recentes
+                        <br>
+                        • Microcirurgia: Precisão em reconstruções.<br>
+                        • Impressão 3D: Moldes personalizados.<br>
+                        • Terapias Regenerativas: Uso de células-tronco.<br>
+                        • Tecnologia a Laser: Procedimentos estéticos não invasivos.<br>
+                        <br>
+                        Estudos de Caso
+                        <br>
+                        • Reconstrução Facial Pós-Trauma.<br>
+                        • Correção de Fenda Palatina.<br>
+                        • Tratamento de Queimaduras Graves.<br>
+                        <br>
+                        Conclusão
+                        <br>
+                        Cirurgiões plásticos melhoram a aparência e a função dos pacientes, exigindo formação extensiva,<br>
+                        habilidades técnicas e atualização constante.<br>
+                    </details>
+
+                    </p>
+
+                </div>
+            </a>
+
+
+
+
+
+
+        </section>
+    </main>
+
+
+    <script>
+        const residencia = document.getElementById('residencia');
+        const dropdown2 = document.getElementById('dropdown2');
+        const dropdown = document.getElementById('dropdown');
+        const body = document.getElementById('body');
+        const body2 = document.getElementById('body2');
+
+        residencia.addEventListener('mouseover', function () {
+            // Mostrar o dropdown2
+            dropdown2.classList.remove('hidden');
+            console.log('dropdown2 visível');
+        });
+
+        // Evento de retirar o mouse do menu dropdown2
+        body.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+        body2.addEventListener('mouseover', function () {
+            // Esconder o dropdown2
+            dropdown2.classList.add('hidden');
+            console.log('dropdown2 oculto');
+        });
+
+    </script>
+
+</body>
+
+</html>
