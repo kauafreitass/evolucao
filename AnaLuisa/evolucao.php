@@ -19,9 +19,10 @@
 
 
             <ul class="nav-list">
-                <li><a href="">INICIO</a></li>
-                <li><a href="">PROJETO ANTIGO</a></li>
-                <li><a href="">COMPARAÇÕES</a></li>
+                <li><a href="evolucao.php">INICIO</a></li>
+                <li><a href="projectold.php">PROJETO ANTIGO</a></li>
+                <li><a href="newproject.php">PROJETO ATUAL</a></li>
+                <li><a href="comparacao.php">COMPARAÇÕES</a></li>
 
             </ul>
         </nav>
@@ -44,11 +45,11 @@
                     Para evidenciar e comparar nossa evolução, foram criadas três páginas: uma apresentando o projeto
                     anterior, outra mostrando o projeto atual e, por fim, uma dedicada à análise comparativa do nosso
                     progresso.</p><br>
-                <button class="basestyle">VEJA A COMPARAÇÃO</button>
+                <a href="comparacao.php"><button class="basestyle">COMPARE OS PROJETOS</button></a>
 
             </div><br><br>
             <div class="imgcontent">
-                <img src="Captura de tela 2024-07-19 033801.png" alt="" class="imgbase">
+                <img src="img/elefante.PNG" alt="" class="imgbase">
             </div>
         </div><br><br><br><br>
 
@@ -83,7 +84,7 @@
                 <div class="textcont">
                     <h2>PROJETO ANTIGO</h2>
                     <p>DESCRIÇÃO DO PROJETO ANTIGO</p><br>
-                    <a href=""><button> PROJETO ANTIGO</button></a>
+                    <a href="projectold.php"><button> PROJETO ANTIGO</button></a>
                 </div><br>
             </div>
 
@@ -96,7 +97,7 @@
                 <div class="textcont">
                     <h2>PROJETO ATUAL</h2>
                     <p>DESCRIÇÃO DO PROJETO ATUAL</p><br>
-                    <a href=""><button> PROJETO ATUAL</button></a>
+                    <a href="newproject.php"><button> PROJETO ATUAL</button></a>
 
                 </div><br>
             </div>
@@ -104,13 +105,13 @@
 
             <div class="topic">
                 <div class="imgtopicontai">
-                    <img src="img/projetoantigo.png" alt="" class="imgtopic">
+                    <img src="img/COMPARAÇÃO.png" alt="" class="imgtopic">
                 </div><br>
 
                 <div class="textcont">
-                    <h2>COMPARAÇÕES</h2>
-                    <p>VEJA MAIS SOBRE AMBOS</p><br>
-                    <a href=""><button>COMPARAÇÕES</button></a>
+                    <h2>COMPARAÇÃO</h2>
+                    <p>COMPARE OS PROJETOS</p><br>
+                    <a href="comparacao.php"><button>COMPARAÇÃO</button></a>
                 </div><br>
             </div>
 
@@ -119,14 +120,13 @@
         <div class="containerjustextwhite">
             <div class="contjustexwhite"><br>
                 <h1>
-                    CONCLUSÃO
+                    A IMPORTÂNCIA DO SENAI
                 </h1><br>
-                <p>Ao fazermos uma breve análise, podemos concluir que, ao longo de todos os projetos desenvolvidos,
-                    tanto individuais quanto em grupo, tivemos um progresso significativo. Esses trabalhos nos ajudaram
-                    a aprimorar não apenas nossas habilidades na área tecnológica, mas também a fortalecer competências
-                    no âmbito socioemocional, como trabalho em equipe, comunicação e resolução de problemas. A
-                    experiência de projetar e colaborar com colegas contribuiu para nosso crescimento pessoal e
-                    profissional, preparando-nos melhor para enfrentar desafios futuros.</p><br>
+                <p>Com o SENAI, conseguimos aprimorar nossas habilidades técnicas na área de desenvolvimento de
+                    sistemas, conhecendo cada vez mais a matéria e ganhando experiência com as atividades propostas.
+                    Além disso, também desenvolvemos nossas habilidades para o mercado de trabalho, como o trabalho em
+                    equipe, comunicação e apresentações. Foi a partir desse ensino que conseguimos amadurecer na área
+                    estudantil bem como na área pessoal.</p><br>
             </div>
         </div>
 
@@ -156,19 +156,19 @@
 
             <ul class="menu">
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">INICIO</a>
+                    <a href="evolucao.php" class="menu-icon">INICIO</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">PROJETO ANTIGO</a>
+                    <a href="projectold.php" class="menu-icon">PROJETO ANTIGO</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">PROJETO ATUAL</a>
+                    <a href="newproject.php" class="menu-icon">PROJETO ATUAL</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">COMPARAÇÕES</a>
+                    <a href="comparacao.php" class="menu-icon">COMPARAÇÕES</a>
                 </li>
             </ul>
 

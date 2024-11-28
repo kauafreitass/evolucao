@@ -19,9 +19,10 @@
 
 
             <ul class="nav-list">
-                <li><a href="">INICIO</a></li>
-                <li><a href="">PROJETO ANTIGO</a></li>
-                <li><a href="">COMPARAÇÕES</a></li>
+                <li><a href="evolucao.php">INICIO</a></li>
+                <li><a href="projectold.php">PROJETO ANTIGO</a></li>
+                <li><a href="newproject.php">PROJETO ATUAL</a></li>
+                <li><a href="comparacao.php">COMPARAÇÕES</a></li>
 
             </ul>
         </nav>
@@ -59,7 +60,7 @@
 
                 <div class="topics">
 
-                    <div class="textcont">
+                    <div class="textconts">
                         <h2>PIMEIRA FASE</h2>
                         <p>PLANEJAMENTO</p><br>
 
@@ -74,7 +75,7 @@
 
                 <div class="topics">
 
-                    <div class="textcont">
+                    <div class="textconts">
                         <h2>SEGUNDO FASE</h2>
                         <p>LAYOUT</p><br>
 
@@ -87,7 +88,7 @@
 
                 <div class="topics">
 
-                    <div class="textcont">
+                    <div class="textconts">
                         <h2>TERCEIRA FASE</h2>
                         <p>DESENVOLVIMENTO DO SITE</p><br>
 
@@ -102,7 +103,7 @@
 
                 <div class="topics">
 
-                    <div class="textcont">
+                    <div class="textconts">
                         <h2>QUARTA FASE</h2>
                         <p>FINALIZAÇÃO E APRESENTAÇÃO</p><br>
 
@@ -120,7 +121,7 @@
             </div>
         </div><br><br>
         <div class="centertext">
-            <h2>DIFICULDADES E FACILIDADES ENCONTRADAS</h2><br>
+            <h2 class>DIFICULDADES E FACILIDADES ENCONTRADAS</h2><br>
             <p>Como em todo projeto, enfrentamos desafios ao longo do caminho. Cada um de nós encontrou dificuldades em
                 aspectos diferentes, seja no layout da página ou no código, e é a partir dessas que aprendemos a colocar
                 em prática nossas matérias.
@@ -175,21 +176,20 @@
 
 
             <ul class="menu">
-                <li class="menuelemen">
-                    <a href="" class="menu-icon">INICIO</a>
+            <li class="menuelemen">
+                    <a href="evolucao.php" class="menu-icon">INICIO</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">PROJETO ANTIGO</a>
+                    <a href="projectold.php" class="menu-icon">PROJETO ANTIGO</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">PROJETO ATUAL</a>
+                    <a href="newproject.php" class="menu-icon">PROJETO ATUAL</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">COMPARAÇÕES</a>
-                </li>
+                    <a href="comparacao.php" class="menu-icon">COMPARAÇÕES</a>
             </ul>
 
         </footer>

@@ -22,7 +22,7 @@
                 <li><a href="evolucao.php">INICIO</a></li>
                 <li><a href="projectold.php">PROJETO ANTIGO</a></li>
                 <li><a href="newproject.php">PROJETO ATUAL</a></li>
-                <li><a href="">COMPARAÇÕES</a></li>
+                <li><a href="comparacao.php">COMPARAÇÕES</a></li>
 
             </ul>
         </nav>
@@ -183,21 +183,20 @@
 
 
             <ul class="menu">
-                <li class="menuelemen">
-                    <a href="" class="menu-icon">INICIO</a>
+            <li class="menuelemen">
+                    <a href="evolucao.php" class="menu-icon">INICIO</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">PROJETO ANTIGO</a>
+                    <a href="projectold.php" class="menu-icon">PROJETO ANTIGO</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">PROJETO ATUAL</a>
+                    <a href="newproject.php" class="menu-icon">PROJETO ATUAL</a>
                 </li>
 
                 <li class="menuelemen">
-                    <a href="" class="menu-icon">COMPARAÇÕES</a>
-                </li>
+                    <a href="comparacao.php" class="menu-icon">COMPARAÇÕES</a>
             </ul>
 
         </footer>
