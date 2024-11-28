@@ -21,7 +21,8 @@
                     <li><a href="dificuldades.php">♔DIFICULDADES</a></li>
                     <a href="evolucao.php"><h1>EVOLUÇÃO</h1></a>
                     <li><a href="evolucaopessoal.php">♔PROGRESSO</a></li>
-                    <li><a href="contato.php">♔CONTATO</a></li>
+                    <li><a href="contato.php">❃CONTATO</a></li>
+                    <li><a href="../evolucao.php">♔SAIR</a></li>
                 </ul>
                 <span>✾∽∽∽⊰⊱∽∽∽∽∽⊰✾⊱∽∽∽∽∽⊰⊱∽∽∽</span>
             </div>
