@@ -45,7 +45,7 @@
             </div><br>
             <div class="imgcontent">
                 <img src="img/projetoatual.png" alt="" class="imgbase"><br><br>
-                <a href="http://localhost/personalidade-page/"><button class="basestyle">VEJA O SITE</button></a>
+           
             </div>
         </div><br>
 
